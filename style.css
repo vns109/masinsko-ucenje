@@ -1,0 +1,7 @@
+body {background-color: bisque;color: black;font-family: 'Times New Roman', Times, serif;}
+#container{background-color: bisque; width: 1200px; margin-left: auto; margin-right: auto;}
+#header {background-color: rgb(255, 213, 162);border-style: double, black;padding: 1cm;;text-align: center;font-size: 1cm;}
+#content {padding:10px}
+#nav{width:90%; padding-left: 8cm;}
+#table,tr,th {border: 2px rgb(145, 81, 3); border-color:rgb(145, 81, 3);border-style:solid;}
+#footer{clear:both; position: absolute; text-align: center; padding-left: 14cm; bottom: 0; padding-bottom: 15px;}

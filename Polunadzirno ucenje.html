@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Polunadzirno učenje</title>
+<style>
+body {background-color: bisque;color: black;font-family: 'Times New Roman', Times, serif; position: relative;}
+table,tr,th {border: 2px rgb(145, 81, 3); border-color:rgb(145, 81, 3);border-style:solid;}
+article {color: black;font-family: 'Times New Roman', Times, serif; float:right;font-size: 0.5cm; width:1000px; margin-right: 12cm;}
+nav {float: left; width:180px; padding-left: 2cm; margin-top: 1cm;}
+</style>
+</head>
+<body>
+    <nav>
+        <table>
+            <tr><th><a href="index.html" target="_blank">Nazad na glavnu stranicu</a> <br></th></tr>
+            <tr><th><a href="Nadzirano učenje.html" target="_blank">Nadzirano učenje</a><br></th></tr>
+            <tr><th><a href="Nenadzirano učenje.html" target="_blank">Nenadzirano učenje</a><br></th></tr>
+            <tr><th><a href="Pojačano učenje.html" target="_blank">Pojačano učenje</a></th></tr>
+        </table>
+    </nav> 
+<article>
+    <h1 style="color: brown;">Polunadzirno učenje</h1>
+    Kao što se ponekad dešava, kada jedan pristup ne uspe da reši problem, pokušavate sa drugim. Kada ni taj pristup ne funkcioniše, možda bi bilo dobro kombinovati najbolje delove oba. Barem je to često slučaj sa tehnološkim zadacima. I mašinsko učenje nije izuzetak.
+    Verovatno ste čuli za dve glavne tehnike ML-a — učenje pod nadzorom i učenje bez nadzora. Brak obe te tehnologije iznedrio je sretan medij poznat kao polunadgledano učenje.
+    <h1 style="color: brown;">Šta je polunadgledano učenje?</h1>
+Ukratko, polunadgledano učenje (SSL) je tehnika mašinskog učenja koja koristi mali deo označenih podataka i mnogo neoznačenih podataka za obuku prediktivnog modela.<br>
+Da bismo bolje razumeli koncept SSL-a, trebalo bi da ga posmatramo kroz prizmu njegovih dva glavna para.<br>
+<br>
+<img src="4.png"><br>
+<br>
+<b>Polu-nadgledano učenje</b> premošćuje nadgledano učenje i tehnike učenja bez nadzora kako bi se rešili njihovi ključni izazovi. Pomoću njega obučavate početni model na nekoliko označenih uzoraka, a zatim ga iterativno primenjujete na veći broj neoznačenih podataka.<br>
+<br>
+-Za razliku od učenja bez nadzora, SSL radi na nizu problema od klasifikacije i regresije do grupisanja i povezivanja.<br>
+-Za razliku od učenja pod nadzorom, metoda koristi male količine označenih podataka, a takođe i velike količine neoznačenih podataka, što smanjuje troškove ručnog beleženja i skraćuje vreme pripreme podataka.<br>
+<h2 style="color: brown">Samoobuka</h2>
+Jedan od najjednostavnijih primera polunadgledanog učenja, uopšteno gledano, je samoobuka.<br>
+<br>
+Samoobuka je procedura u kojoj možete koristiti bilo koju nadgledanu metodu za klasifikaciju ili regresiju i modifikovati je da radi na polu-nadgledani način, koristeći prednosti označenih i neoznačenih podataka. 
+<br>
+<h2 style="color: brown;">Ko-trening</h2>
+Izveden iz pristupa samoobuke i kao njegova poboljšana verzija, ko-obuka je još jedna polunadgledana tehnika učenja koja se koristi kada je dostupan samo mali deo označenih podataka. Za razliku od tipičnog procesa, zajednički trening obučava dva pojedinačna klasifikatora na osnovu dva pogleda podataka.<br>
+<br>
+Pogledi su u osnovi različiti skupovi funkcija koje pružaju dodatne informacije o svakoj instanci, što znači da su nezavisni u zavisnosti od klase. Takođe, svaki pogled je dovoljan - klasa uzoraka podataka može se tačno predvideti samo iz svakog skupa karakteristika.<br>
+<br>
+Originalni ko-trening istraživački rad tvrdi da se pristup može uspešno koristiti, na primer, za zadatke klasifikacije veb sadržaja. Opis svake veb stranice može se podeliti na dva prikaza: jedan sa rečima koje se pojavljuju na toj stranici i drugi sa sidrenim rečima u linku koji vodi do nje.<br>
+
+<h2 style="color: brown;">Primeri učenja sa polu-nadgledanjem</h2>
+<ul>
+    <li>Prepoznavanje govora</li>
+    <li>Klasifikacija veb sadržaja</li>
+    <li>Klasifikacija tekstualnih dokumenata</li>
+</ul>
+</article>
+</body>
+</html>

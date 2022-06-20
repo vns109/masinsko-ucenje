@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Pojačano učenje</title>
+        <style>
+            body {background-color: bisque;color: black;font-family: 'Times New Roman', Times, serif; position: relative;}
+            table,tr,th {border: 2px rgb(145, 81, 3); border-color:rgb(145, 81, 3);border-style:solid;}
+            article {color: black;font-family: 'Times New Roman', Times, serif; float:right;font-size: 0.5cm; width:1000px; margin-right: 12cm;}
+            nav {float: left; width:180px; padding-left: 2cm; margin-top: 1cm;}
+        </style>
+    </head>
+<body>
+    <nav>
+        <table>
+            <tr><th><a href="index.html" target="_blank">Nazad na glavnu stranicu</a> <br></th></tr>
+            <tr><th><a href="Nadzirano učenje.html" target="_blank">Nadzirano učenje</a><br></th></tr>
+            <tr><th><a href="Nenadzirano učenje.html" target="_blank">Nenadzirano učenje</a><br></th></tr>
+            <tr><th><a href="Polunadzirno ucenje.html" target="_blank">Polunadzirno učenje</a></th></tr>
+        </table>
+    </nav> 
+    <article>
+<h1 style="color: brown;">Šta je učenje sa pojačanjem?</h1>   
+Učenje sa pojačanjem je oblast mašinskog učenja. Radi se o preduzimanju odgovarajućih radnji kako bi se maksimizirala nagrada u određenoj situaciji. Koriste ga različiti softveri i mašine da bi se pronašlo najbolje moguće ponašanje ili put kojim bi trebalo da ide u određenoj situaciji. Učenje sa pojačanjem se razlikuje od učenja pod nadzorom na način da u nadgledanom učenju podaci o obuci imaju ključ za odgovor, tako da se model obučava sa samim tačnim odgovorom, dok u učenju sa potkrepljenjem odgovora nema, ali agent za pojačavanje odlučuje šta da uradi da izvrši dati zadatak. U nedostatku skupa podataka za obuku, moraće da uči iz svog iskustva.
+<h2 style="color: brown;">Primeri učenja sa potkrepljenjem</h2>
+Npr. u uobičajenim okolnostima bi nam bilo potrebno da autonomno vozilo stavi sigurnost na prvo mesto, minimizira vreme vožnje, smanji zagađenje, pruži putnicima udobnost i poštuje zakonska pravila. Sa autonomnim trkačkim automobilom, s druge strane, mnogo bismo više naglasili brzinu nego udobnost vozača. Programer ne može da predvidi sve što bi se moglo dogoditi na putu. Umesto da pravi dugačke instrukcije „ako-onda“, programer priprema agenta za učenje sa pojačanjem da bude sposoban da uči iz sistema nagrada i kazni. Agent (drugo ime za algoritme učenja sa pojačanjem koji izvršavaju zadatak) dobija nagradu za postizanje određenih ciljeva.
+<br>
+Jos jedan primer:<br>
+-imamo agenta i nagradu, sa mnogo prepreka između. Agent treba da pronađe najbolji mogući put da dođe do nagrade. Sledeći problem lakše objašnjava problem.<br>
+<br>
+<img src="5.png" style="width: 600px;"><br>
+<br>
+Gornja slika prikazuje robota, dijamant i vatru. Cilj robota je da dobije nagradu koja je dijamant i izbegne prepreke koje se ispaljuju. Robot uči isprobavajući sve moguće puteve, a zatim birajući put koji mu daje nagradu sa najmanje prepreka. Svaki pravi korak će dati robotu nagradu, a svaki pogrešan korak će oduzeti nagradu robota. Ukupna nagrada će se izračunati kada dostigne konačnu nagradu koja je dijamant.<br>
+<br>
+Glavne tačke u učenju sa pojačanjem <br>
+<ul>
+<li>Input: Ulaz treba da bude početno stanje iz kojeg će model početi</li>
+<li>Output: Postoji mnogo mogućih ishoda jer postoje različita rešenja za određeni problem</li>
+<li>Obuka: Obuka se zasniva na unosu, model će vratiti stanje i korisnik će odlučiti da nagradi ili kazni model na osnovu njegovog rezultata.</li>
+<li>Model nastavlja da uči.</li>
+<li>Najbolje rešenje se odlučuje na osnovu maksimalne nagrade.</li>
+</ul>
+<h2 style="color: brown;">Tipovi pojačanog učenja:</h2>
+-Postoje dve vrste pojačanja
+<br>
+<b>1. Pozitivno </b><br>
+<br>
+Pozitivno pojačanje se definiše kao kada se događaj, koji se dogodi zbog određenog ponašanja, povećava snagu i učestalost ponašanja. Drugim rečima, pozitivno utiče na ponašanje.
+Prednosti učenja sa pojačanjem su:<br>
+<ul>
+<li>Maksimizira performanse</li>
+<li>Održavajte promene tokom dužeg vremenskog perioda</li>
+<li>Previše pojačanja može dovesti do preopterećenja stanja što može umanjiti rezultate</li>
+</ul>
+<br>
+<b>2. Negativno </b><br>
+<br>
+Negativno pojačanje se definiše kao jačanje ponašanja jer se negativno stanje zaustavlja ili izbegava.
+Prednosti učenja sa pojačanjem:<br>
+<ul>
+<li>Povećava ponašanje</li>
+<li>Prkosite minimalnom standardu učinka</li>
+<li>Obezbeđuje samo dovoljno da ispuni minimalno ponašanje</li>
+</ul>
+<h2 style="color: brown;">Različite praktične primene učenja sa pojačanjem</h2>
+<br>
+RL se može koristiti u velikim okruženjima u sledećim situacijama:<br>
+<br>
+1. Model okruženja je poznat, ali analitičko rešenje nije dostupno;<br>
+2. Dat je samo simulacioni model okruženja (predmet optimizacije zasnovane na simulaciji)<br>
+3. Jedini način za prikupljanje informacija o životnoj sredini je interakcija sa njom<br>
+</article>
+</body>
+</html>
